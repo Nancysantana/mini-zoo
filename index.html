@@ -8,20 +8,23 @@
   </head>
   <body>
     <h1>MINI ZOO </h1>
-      <select>
-        <option value="Original">Original</option>
-        <option value="Sepia">Sepia</option>
-        <option value="Blanco y Negro">Blanco y Negro</option>
-        <option value="Invertir colores">Invertir colores</option>
+    <div class="menu">
+      <select id=contenido-menu>
+        <option data-filtro= "original" value="Original" selected>Original</option>
+        <option data-filtro= "sepia" value="Sepia">Sepia</option>
+        <option data-filtro= "blanco-negro" value="Blanco y Negro">Blanco y Negro</option>
+        <option data-filtro= "invertir" value="Invertir colores">Invertir colores</option>
       </select>
     </div>
+
+    </div>
     <div id="contenido">
-      <img src="assets/images/jirafa.jpg" alt="jirafa">
-      <img src="assets/images/lemur.jpg" alt="">
-      <img src="assets/images/koalas.jpg" alt="">
-      <img src="assets/images/perritos.jpg" alt="">
-      <img src="assets/images/lemur-blanco.jpg" alt="">
-      <img src="assets/images/gatitos.jpg" alt="">
+      <img src="assets/images/jirafa.jpg" alt="Jirafa">
+      <img src="assets/images/lemur.jpg" alt="Lemur">
+      <img src="assets/images/koalas.jpg" alt="Koala">
+      <img src="assets/images/perritos.jpg" alt="Perritos">
+      <img src="assets/images/lemur-blanco.jpg" alt="Lemur-B">
+      <img src="assets/images/gatitos.jpg" alt="Gatito">
     </div>
 
     <script type="text/javascript" src="js/app.js">

@@ -23,6 +23,23 @@
     margin-top: 40px;
   }
 
+  .f-orig {
+  }
+
+  .f-sep {
+    filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+  }
+
+  .f-bn{
+    filter:grayscale(100%);
+  }
+
+  .f-invertir{
+    filter:invert(100%);
+  }
+
+
   .menu {
     margin-top: 30px;
   }
